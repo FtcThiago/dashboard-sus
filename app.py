@@ -10,10 +10,10 @@ import re
 # ==========================================
 
 # Dados do ENEM
-df_enem = pd.read_excel("C:\\Users\\thiag\\Downloads\\Vai apagar\\Enem_2024_Amostra_Perfeita.xlsx")
+df_enem = pd.read_excel("Enem_2024_Amostra_Perfeita.xlsx")
 
 # Dados do SUS (Mantenha o caminho correto do seu arquivo aqui)
-df_sus = pd.read_excel("C:\\Users\\thiag\\Downloads\\Vai apagar\\CIA014_SUS_Prova_2.xlsx")
+df_sus = pd.read_excel("CIA014_SUS_Prova_2.xlsx")
 
 
 # ==========================================
