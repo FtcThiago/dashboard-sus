@@ -5,7 +5,7 @@ import pandas as pd
 import re
 
 # Lendo a planilha do SUS direto para o pandas
-df = pd.read_excel("C:\\Users\\thiag\\Downloads\\Vai apagar\\CIA014_SUS_Prova_2.xlsx")
+df = pd.read_excel("CIA014_SUS_Prova_2.xlsx")
 
 # Aqui a gente checa se as coordenadas vieram como texto (com vírgula). 
 # Se sim, trocamos a vírgula por ponto pro Python conseguir converter pra float e plotar no mapa.
